@@ -48,6 +48,9 @@
         self.scanCallbackId = [command callbackId];
         self.scanReader = [AlmaZBarReaderViewController new];
 
+
+
+
         self.scanReader.readerDelegate = self;
         self.scanReader.supportedOrientationsMask = ZBarOrientationMask(UIInterfaceOrientationPortrait);
 
