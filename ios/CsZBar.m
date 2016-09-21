@@ -35,6 +35,9 @@
 
 #pragma mark - Plugin API
 
+
+
+
 - (void)scan: (CDVInvokedUrlCommand*)command; 
 {
     if (self.scanInProgress) {
